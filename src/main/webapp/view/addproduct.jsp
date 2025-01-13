@@ -11,7 +11,7 @@
 <body>
     <h1>Add New Product</h1>
     
-    <!-- Form to add a new product -->
+    <!-- add a new product -->
     <form action="/api/products" method="POST">
         <div>
             <label for="name">Product Name:</label>
@@ -30,7 +30,6 @@
         <button type="submit">Add Product</button>
     </form>
     
-    <!-- Back link to the product list page -->
     <a href="/api/products">Back to Product List</a>
 </body>
 </html>
