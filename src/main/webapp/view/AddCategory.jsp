@@ -22,7 +22,7 @@
 <body>
     <h1>Create New Category</h1>
 
-    <!-- Form for creating a new category -->
+    <!-- create new category -->
     <div class="form-container">
         <form action="/api/categories" method="post">
             <input type="text" name="name" id="name" placeholder="Enter category name" required>
