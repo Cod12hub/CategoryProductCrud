@@ -92,7 +92,7 @@
 <a href="/api/categories">Category Crud</a>
     <h1>Product List</h1>
     
-    <a href="/api/products/newp">Add Product</a> <!-- Link to add a new product -->
+    <a href="/api/products/newp">Add Product</a> 
     
    
     
@@ -112,9 +112,8 @@
                     <td>
                         <a href="/api/products/${product.id}">View</a> |
                         <a href="/api/products/${product.id}/update">Update</a>
-                        <!-- Delete form -->
                         <form action="/api/products/${product.id}" method="POST" style="display:inline;">
-                            <input type="hidden" name="_method" value="DELETE" />  <!-- This simulates the DELETE method -->
+                            <input type="hidden" name="_method" value="DELETE" />  
                         
                             <button type="submit">Delete</button>
                         </form>
