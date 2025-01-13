@@ -28,12 +28,11 @@
             color: white;
             border: none;
             cursor: pointer;
-            margin-right: 10px; /* Space between the buttons */
+            margin-right: 10px; 
         }
         .button:hover {
             background-color: #45a049;
         }
-        /* Align buttons horizontally */
         form, a {
             display: inline-block;
         }
